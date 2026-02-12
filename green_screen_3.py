@@ -1,3 +1,4 @@
+# Chương trình này là bản nâng cấp của green_screen ,có thể tùy chỉnh lower_green và upper_green bằng thanh trượt ,giúp tối thiểu viền xanh
 import cv2
 import numpy as np
 
@@ -6,6 +7,7 @@ def nothing(x):
     pass
 
 # 1. Đọc ảnh
+# dán đường dẫn vào path
 path = r"C:\Users\TGDD\Downloads\CV\person.jpg" # Đường dẫn ảnh của bạn
 img = cv2.imread(path)
 
@@ -69,5 +71,6 @@ while True:
     key = cv2.waitKey(1)
     if key == 27 or key == ord('q'):
         break
+
 
 cv2.destroyAllWindows()
