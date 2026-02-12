@@ -1,4 +1,4 @@
-# Chương trình này là bản nâng cấp của green_screen ,có thể tùy chỉnh lower_green và upper_green bằng thanh trượt ,giúp tối thiểu viền xanh
+# Chương trình này là bản nâng cấp của green_screen ,có thể tùy chỉnh lower_green và upper_green bằng thanh trượt ,giúp tối thiểu viền xanh,có dùng gemeni hoàn thành trong ngày 12/2/2026
 import cv2
 import numpy as np
 
@@ -74,3 +74,4 @@ while True:
 
 
 cv2.destroyAllWindows()
+
