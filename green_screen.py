@@ -1,3 +1,4 @@
+# Chương trình này là chương trình dùng để tách nhân vật ra khỏi phông xanh,thực hiện từ 8/2/2026 - 12/2/2026
 import cv2
 import numpy as np
 
@@ -25,3 +26,4 @@ if img is not None:
     cv2.imshow('mask',mask)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
